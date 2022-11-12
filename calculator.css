@@ -1,0 +1,79 @@
+body {
+  background-color: rgba(255, 255, 255, 0.766);
+}
+/* main app */
+.app {
+  background: rgba(51, 93, 220, 0.406);
+  border-radius: 16px;
+  box-shadow: 10px 4px 30px rgba(34, 89, 217, 0.665);
+  backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(136, 37, 37, 0.118);
+  width: 25em;
+  margin: 9em 7em;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  display: grid;
+}
+/* main Heading */
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+/* main Calculator */
+#calculator {
+  width: auto;
+  margin: auto;
+}
+
+/* input Display */
+#displayValue {
+  background-color: rgb(77, 124, 195);
+  border: none;
+  width: 80%;
+  padding: 0.2em;
+  font-size: 20px;
+  filter: drop-shadow(4px 4px 4px black);
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+/* for all calculator table */
+#calculator table {
+  padding: 1em;
+  display: grid;
+}
+
+/* all table td */
+#calculator td {
+  padding: 5px;
+}
+
+#tb1 {
+  float: left;
+}
+#calculator #equal {
+  width: 100%;
+}
+
+/* All button */
+#calculator button {
+  height: 45px;
+  width: 45px;
+  padding: 0.4em;
+  text-align: center;
+  font-size: medium;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  transition-duration: 0.4s;
+}
+
+/* Button hower effect */
+#calculator button:hover {
+  background-color: #1f0fd3;
+  color: white;
+  filter: drop-shadow(2px 2px 4px black);
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./calculator.css" />
+
+    <title>test</title>
+  </head>
+  <body>
+    <!-- Main cointainer -->
+    <div class="app">
+      <!-- Main Heading -->
+      <h1>CALCULATOR</h1>
+      <!-- Input data -->
+      <input type="text" name="displayValue" id="displayValue" />
+      <!-- Calculator Div -->
+      <div id="calculator">
+        <!-- Left Table -->
+        <table id="tb1">
+          <!-- first row -->
+          <tr>
+            <td><button class="one">1</button></td>
+            <td>
+              <button class="two">2</button>
+            </td>
+            <td>
+              <button class="three">3</button>
+            </td>
+          </tr>
+          <!-- Second row -->
+          <tr>
+            <td>
+              <button class="four">4</button>
+            </td>
+            <td>
+              <button class="five">5</button>
+            </td>
+            <td>
+              <button class="six">6</button>
+            </td>
+          </tr>
+          <!-- third row -->
+          <tr>
+            <td>
+              <button class="seven">7</button>
+            </td>
+            <td>
+              <button class="eight">8</button>
+            </td>
+            <td>
+              <button class="nine">9</button>
+            </td>
+          </tr>
+          <!-- fourth row -->
+          <tr>
+            <td></td>
+            <td><button class="zero">0</button></td>
+            <td></td>
+          </tr>
+        </table>
+
+        <!-- Second Table -->
+        <table>
+          <!-- first row -->
+          <tr>
+            <td>
+              <button class="rem">%</button>
+            </td>
+            <td>
+              <button class="clear">C</button>
+            </td>
+          </tr>
+          <!-- Second row -->
+          <tr>
+            <td>
+              <button class="plus">+</button>
+            </td>
+            <td>
+              <button class="sub">-</button>
+            </td>
+          </tr>
+          <!-- Third row -->
+          <tr>
+            <td>
+              <button class="mul">*</button>
+            </td>
+            <td>
+              <button class="divide">/</button>
+            </td>
+          </tr>
+          <!-- fourth row -->
+          <tr>
+            <td colspan="2">
+              <button id="equal" class="equal">=</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Script link -->
+    <script src="./calculator.js"></script>
+  </body>
+</html>
